@@ -1,0 +1,122 @@
+#main-heading {
+  background-color: #E9DAC1;
+}
+
+#main-heading {
+  font-family: "Montserrat, sans-serif";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+  text-decoration: #fff;
+}
+
+body {
+  background-color: #E9DAC1;
+  font-family: Montserrat;
+}
+
+
+
+.main-logo {
+  padding-left: 3%;
+}
+
+.front-page {
+  padding: 5% 10%;
+}
+
+.navigation_bar {
+  padding: 0% 0%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.course_section {
+  /* color:#333;
+  background-color: #E9DAC1; */
+  /* padding: 3% 3% */
+  margin: 1% 3%
+}
+
+.group_course_section {
+  padding: 5% 3%;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.course {
+  background-color: #54BAB9;
+  padding: 3% 5%;
+}
+
+.course_e {
+  background-color: #18978F;
+  padding: 3% 5%;
+}
+
+.college-logo {
+  width: 200%;
+}
+@media (max-width : 576px){
+  .college-logo{
+    width:100%;
+    /* position:static; */
+  }
+}
+
+/* .h1 {
+  font-family: 'Montserrat, sans-serif';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+} */
+.Divider-Line-Segment {
+  /* border-style: none; */
+  margin: auto;
+  width: 95%;
+  border-width: 5px;
+  color: grey;
+  /* align-self: auto; */
+}
+
+/* internship and job section related css */
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-left-width: .25rem;
+  border-radius: .25rem
+}
+
+.bd-callout h4, h3 {
+  margin-top: 0;
+  margin-bottom: .25rem
+}
+
+.bd-callout p:last-child {
+  margin-bottom: 0
+}
+
+.bd-callout code {
+  border-radius: .25rem
+}
+
+.bd-callout+.bd-callout {
+  margin-top: -0.25rem
+}
+
+.bd-callout-default {
+  border-left-color: #6c757d;
+}
+
+.bd-callout-defaulth4 {
+  color: #6c757d;
+}
+
+.bd-callout-defaulth3 {
+  color: #6c757d;
+}
